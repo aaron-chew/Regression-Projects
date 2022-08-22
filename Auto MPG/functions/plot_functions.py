@@ -192,10 +192,25 @@ def MSE_plot(MSE_scores_GBR, MSE_scores_RFR, MSE_scores_XGB, score_string):
     fig['layout']['xaxis3']['title']='Iterations'
 
     fig.show()
-    
-    
-    
-    
+
+def residual_plot(xaxis=None, yaxis=None):
+    # PLotting the residual plot. 
+    fig = px.scatter(x=xaxis, y=yaxis)
+    fig.add_hline(y=0, line_width=2, line_color="black")  
+    fig.update_layout(title='Residual Plot',
+                           xaxis_title='Residuals',
+                           yaxis_title='Actual',
+                           height=400, width=650, plot_bgcolor='#F8F8F6', title_font_size=20,  title_font_family='Arial Black')
+    fig.show()
+
+def distribution(xaxis=None):
+    fig = px.histogram(x=xaxis)
+    fig.update_layout(title='Distribution of Resiudal Error',
+                           xaxis_title='Residuals',
+                           yaxis_title='count',
+                           height=400, width=650, plot_bgcolor='#F8F8F6', title_font_size=20,  title_font_family='Arial Black')
+    fig.show()
+
     
     
     
