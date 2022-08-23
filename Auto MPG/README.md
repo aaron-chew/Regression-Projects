@@ -11,7 +11,7 @@ because they had unknown values for the "mpg" attribute. The original
 dataset is available in the file "auto-mpg.data-original".
 
 ## The Dataset
-The dataset is a multivariate regression problem that contains 8 attributes, 398 rows and categorical and real numbers. As such, we will have to manually split the data into train and test sets, to later test our model on unseen data.
+The dataset is a multivariate regression problem that contains 8 attributes, 398 rows, a mix of categorical and real numbers with the label identified as "mpg". As such, we will have to manually split the data into train and test sets, to later test our model on unseen data.
 
 ## Project Layout
 This project uses 6 notebooks that are divided by each stage/topic of our analysis. To begin, start at notebook "01_basic_exploration" then work your way up sequentially until you reach the 6th and final notebook that deploys the model. The functions and plots files can be found under the "functions" folder which contains all the functions used inside our notebooks.
