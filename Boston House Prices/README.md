@@ -7,7 +7,7 @@ This project aims to train an algorithm to accurately predict the price of a Bos
 This dataset contains information collected by the U.S Census Service concerning housing in the area of Boston Mass. It was obtained from the StatLib archive (http://lib.stat.cmu.edu/datasets/boston), and has been used extensively throughout the literature to benchmark algorithms. The dataset is small in size with only 506 cases.
 
 ## The Dataset
-As mentioned earilier the dataset contains 506 rows with a mixture of datatypes. We will have to manually split the dataset to create a test set for later use.
+The dataset is a multivariate regression problem that contains 14 attributes, 506 rows and a all numerical data type. As such, we will have to manually split the data into train and test sets, to later test our model on unseen data.
 
 ## Project Layout 
 This project uses 6 notebooks that are divided by each stage/topic of our analysis. To begin, start at notebook "01_basic_exploration" then work your way up sequentially until you reach the 6th and final notebook that deploys the model. The functions and plots files can be found under the "functions" folder which contains all the functions used inside our notebooks.
