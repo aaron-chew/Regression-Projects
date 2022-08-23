@@ -31,3 +31,7 @@ This project uses 6 notebooks that are divided by each stage/topic of our analys
 From the conclusion and findings from our project, we found out that the XGB Regressor was the best performing model that achieved the lowest loss function from our sample of algorithms. You can find the final pipeline with all the necessary transformers and model inside the pickle file "XGBRegressor.pkl".
 
 
+## Authors
+
+- [@aaron-chew](https://github.com/aaron-chew)
+
